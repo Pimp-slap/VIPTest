@@ -1,0 +1,29 @@
+{
+  "name": "VIPTest",
+  "scripts": {
+  },
+  "env": {
+    "API_KEY": {
+      "required": true
+    },
+    "API_SECRET": {
+      "required": true
+    },
+    "SLIM_MODE": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
